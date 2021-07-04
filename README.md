@@ -17,10 +17,12 @@ cargo install kickstart
 kickstart https://github.com/sacha-l/kickstart-substrate
 ```
 Then, you'll be prompted to type in the pallet and node names.
+
 If you want to specify a folder to clone into, run:
 
 ```bash
-kickstart https://github.com/sacha-l/kickstart-substrate -o <folder_path>
+mkdir <folder_name>
+kickstart https://github.com/sacha-l/kickstart-substrate -o <folder_name>
 ```
 
 ## ⌛ Coming soon™️
