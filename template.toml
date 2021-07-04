@@ -3,8 +3,6 @@ description = "A tool to customize the template to get started with building blo
 kickstart_version = 1
 
 ignore = [
-    "*",
-    "README.md",
     "./.github/workflows/build-push-template.yml",
     "!substrate-node-template",
     "./docker-compose.yml",
