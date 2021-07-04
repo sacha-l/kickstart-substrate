@@ -5,16 +5,11 @@ kickstart_version = 1
 ignore = [
     "*",
     "README.md",
-    "./.github/workflows/build-push-template.yml",
+    "/./.github/workflows/build-push-template.yml",
     "!substrate-node-template",
     "substrate-node-template/docker-compose.yml",
     "substrate-node-template/.devcontainer/devcontainer.json"
 ]
-
-[[variables]]
-name = "template_project_name"
-default = "substrate-node-template"
-prompt = "What's the name of your project?"
 
 [[variables]]
 name = "node_name"
