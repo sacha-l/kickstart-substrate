@@ -5,10 +5,10 @@ kickstart_version = 1
 ignore = [
     "*",
     "README.md",
-    "/./.github/workflows/build-push-template.yml",
+    "./.github/workflows/build-push-template.yml",
     "!substrate-node-template",
-    "substrate-node-template/docker-compose.yml",
-    "substrate-node-template/.devcontainer/devcontainer.json"
+    "./docker-compose.yml",
+    "./.devcontainer/devcontainer.json"
 ]
 
 [[variables]]
