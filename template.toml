@@ -1,19 +1,21 @@
 name = "Subtrate's Node Template"
 description = "A tool to customize the template to get started with building blockchains with Substrate."
 kickstart_version = 1
-
 ignore = [
-    "./.github/workflows/build-push-template.yml",
-    "!substrate-node-template",
-    "./docker-compose.yml",
-    "./.devcontainer/devcontainer.json"
+    "{{template_project_name}}/.github/workflows/build-push-template",
+    "!{{template_project_name}}",
+    "{{template_project_name}}/docker-compose.yml"
 ]
+
+[[variables]]
+name = "{{template_project_name}}"
+default = "substrate-node-template"
+prompt = "What's the name of your project?"
 
 [[variables]]
 name = "node_name"
 default = "template"
 prompt = "What are you calling your node?"
-
 
 [[variables]]
 name = "pallet_name"
