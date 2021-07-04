@@ -1,3 +1,0 @@
-[submodule "{{template_project_name}}"]
-	path = {{template_project_name}}
-	url = https://github.com/sacha-l/substrate-node-template/tree/kickstart-template
