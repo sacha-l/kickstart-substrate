@@ -8,7 +8,7 @@ runs a script in `template.toml` which makes it easy to customize a node templat
 
 Install `kickstart` (you'll only need to do this once):
 ```rust
-cargo install --git https://github.com/Keats/kickstart.git --branch next
+cargo install kickstart
 ```
 
 `cd` in the directory you'd like this project to live in and run:
