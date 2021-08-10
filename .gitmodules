@@ -1,3 +1,4 @@
 [submodule "substrate-node-template"]
 	path = substrate-node-template
-	url = git@github.com:sacha-l/substrate-node-template.git
+	url = "git@github.com:sacha-l/substrate-node-template.git "
+	branch = kickstart-node-template
