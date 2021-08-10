@@ -24,6 +24,13 @@ If you want to specify a folder to clone into, run:
 mkdir <folder_name>
 kickstart https://github.com/sacha-l/kickstart-substrate -o <folder_name>
 ```
+## Maintanence note
+
+To ensure submodule is updated, run:
+
+```bash
+git submodule update --remote --merge
+```
 
 ## ⌛ Coming soon™️
 - A way to add more pallets from the CLI using Tera.
