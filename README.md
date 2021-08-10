@@ -1,6 +1,6 @@
 # kickstart-substrate
 This pulls from an actively updated branch of Substrate's node template. It
-runs a script in `template.toml` which makes it easy to customize a node template. Customize is a big word. For now it does the little things: 
+runs a script in `template.toml` which makes it easy to customize a node template. Customize is a big word. For now it does the little things:
 1. Renames the template pallet.
 2. Renames the node.
 
@@ -37,5 +37,13 @@ git submodule update --remote --merge
 - A way to do some basic pallet scaffolding based on user input. For example, storage items; events; errors.
 - Ask user if they're using the template for production. If yes, handle the renaming of author and project repositories.
 
-## 🙏 Acknowledgements 
+## 🙏 Acknowledgements
 Thanks to [Keats](https://github.com/Keats) for making the [Kickstart tool](https://github.com/Keats/kickstart) and for [Chevdor](https://github.com/chevdor) for showing it to me!
+
+## Contribute
+
+This repo contains submodules, make sure you initialize them by cloning with:
+
+```
+git clone --recurse-submodules git@github.com:chevdor/kickstart-substrate.git
+```
