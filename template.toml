@@ -8,6 +8,7 @@ ignore = [
     "README.md",
     ".gitmodules"
 ]
+directory = "{{node_name}}"
 
 [[variables]]
 name = "node_name"
