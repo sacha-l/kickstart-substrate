@@ -5,7 +5,8 @@ ignore = [
     "*",
     "substrate-node-template/.github/workflows/build-push-template",
     "substrate-node-template/docker-compose.yml",
-    "README.md"
+    "README.md",
+    ".gitmodules"
 ]
 
 [[variables]]
